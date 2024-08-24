@@ -2,10 +2,22 @@
 
 ## Install dependencies
 
-1. Run this command to install dependenies.
+1. Run this command to install dependenies. 
+
+```python
+pipx install poetry
+```
+
+```python
+poetry config virtualenvs.in-project true
+```
 
 ```python
 poetry install
+```
+
+```python
+poetry shell
 ```
 
 ## Create database
