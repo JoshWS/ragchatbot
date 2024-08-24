@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ragchatbot"
+version = "0.1.0"
+description = ""
+authors = ["joshwds"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9.0,<3.13"
+langchain = "^0.2.14"
+langchain-core = "^0.2.33"
+ollama = "^0.3.1"
+langchain-community = "^0.2.12"
+unstructured = {extras = ["md"], version = "^0.15.5"}
+langchain-openai = "^0.1.22"
+chromadb = "^0.5.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
