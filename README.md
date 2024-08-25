@@ -1,12 +1,9 @@
-# Langchain RAG Tutorial
+# Langchain RAG Tutorial.
 
-## Install dependencies
+## Install Poetry.
 
-1. Run this command to install dependenies. 
-
-```python
-pipx install poetry
-```
+Head to the poetry website and follow the instructions based on your system.
+https://python-poetry.org/docs/
 
 ```python
 poetry config virtualenvs.in-project true
@@ -20,7 +17,7 @@ poetry install
 poetry shell
 ```
 
-## Create database
+## Create database.
 
 Create the Chroma DB.
 
@@ -28,7 +25,7 @@ Create the Chroma DB.
 python3 create_database.py
 ```
 
-## Query the database
+## Query the database.
 
 Query the Chroma DB.
 
