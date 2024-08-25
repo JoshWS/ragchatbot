@@ -7,9 +7,9 @@ from langchain_openai import OpenAIEmbeddings
 import os
 import shutil
 
-# import nltk
-# nltk.download('punkt_tab')
-# nltk.download('averaged_perceptron_tagger_eng')
+import nltk
+nltk.download('punkt_tab')
+nltk.download('averaged_perceptron_tagger_eng')
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data/books"
